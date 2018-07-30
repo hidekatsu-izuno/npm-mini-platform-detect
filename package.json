@@ -1,0 +1,30 @@
+{
+  "name": "mini-platform-detect",
+  "version": "0.1.0",
+  "description": "Minimum platform detect library",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hidekatsu-izuno/npm-mini-platform-detect.git"
+  },
+  "author": "Hidekatsu Izuno <hidekatsu.izuno@gmail.com> (https://github.com/hidekatsu-izuno)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hidekatsu-izuno/npm-mini-platform-detect/issues"
+  },
+  "homepage": "https://github.com/hidekatsu-izuno/npm-mini-platform-detect#readme",
+  "browserslist": [
+    ">0.25%",
+    "ie 11"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.7"
+  }
+}
