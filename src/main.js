@@ -60,26 +60,6 @@ if (typeof window !== 'undefined') {
 
         platform.webkit = true;
     }
-
-    if (platform.msie || platform.edge) {
-        const div = document.createElement("div");
-        div.style.position = "absolute";
-        div.style.left = "-20px";
-        div.style.top = "-20px";
-        div.style.width = "20px";
-        div.style.height = "20px";
-        div.style.overflow = "scroll";
-        div.style.msOverflowStyle = "scrollbar";
-        document.body.appendChild(div);
-
-        if (div.offsetWidth === div.clinetWidth && div.offsetHeight === div.clinetHeight) {
-            platform.tablet = true;
-        } else {
-            platform.desktop = true;
-        }
-
-        document.body.removeChild(div);
-    }
     
     platform.enableClasses = () => {
         const targets = [];
