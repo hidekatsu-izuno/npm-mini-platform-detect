@@ -1,6 +1,6 @@
 {
   "name": "mini-platform-detect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimum platform detect library",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "rollup": "^0.63.4",
-    "rollup-plugin-babel": "^3.0.7"
+    "rollup": "^1.2.3",
+    "rollup-plugin-babel": "^4.3.2"
   }
 }
