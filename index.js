@@ -51,7 +51,8 @@
             platform.ios = true;
             platform.mobile = true;
         } else if (ua.indexOf('macintosh') !== -1) {
-            platform.macos = true;
+            if(navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1 && !platform.msie) platform.ios = true;
+            else platform.macos = true;
         } else if (ua.indexOf('windows') !== -1) {
             platform.windows = true;
             if (ua.indexOf('phone') !== -1) {
