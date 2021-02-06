@@ -5,6 +5,10 @@ if (typeof window !== 'undefined') {
 
     if (ua.indexOf('edge') !== -1) {
         platform.edge = true;
+    } else if (ua.indexOf('edg') !== -1) {
+        platform.edge = true;
+        platform.webkit = true;
+        platform.blink = true;
     } else if (ua.indexOf('msie') !== -1 || ua.indexOf('trident') !== -1) {
         platform.msie = true;
     } else if (ua.indexOf('opera') !== -1) {

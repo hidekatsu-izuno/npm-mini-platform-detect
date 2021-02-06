@@ -24,7 +24,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "rollup": "^1.2.3",
-    "rollup-plugin-babel": "^4.3.2"
+    "rollup": "^2.38.5",
+    "rollup-plugin-babel": "^4.4.0"
   }
 }
